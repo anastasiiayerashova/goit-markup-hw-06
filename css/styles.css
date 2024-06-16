@@ -1011,7 +1011,6 @@ ol {
   }
 
   .third-section .container {
-    padding: 0 108px;
     min-width: 584px;
   }
 
@@ -1041,6 +1040,7 @@ ol {
     justify-content: unset;
     gap: 72px 24px;
     padding-left: 92px;
+    min-width: 584px;
   }
 
   .footer-text-container {
@@ -1149,7 +1149,7 @@ ol {
 
   .third-section .container {
     padding: 0 16px;
-    min-width: 1128px;
+    min-width: 1158px;
   }
 
   .section-list {
@@ -1177,6 +1177,7 @@ ol {
   .footer-container {
     flex-wrap: nowrap;
     gap: 0;
+    min-width: 1158px;
   }
 
   .footer-text-container {
@@ -1203,7 +1204,6 @@ ol {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  display: none;
 }
 
 .is-open {
