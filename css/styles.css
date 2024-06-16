@@ -1186,6 +1186,7 @@ ol {
   position: fixed;
   z-index: 999;
   top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   background-color: #fff;
@@ -1195,6 +1196,7 @@ ol {
   padding: 24px 24px 40px 16px;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .is-open {
@@ -1204,8 +1206,9 @@ ol {
 }
 
 .close-button-mob {
-  display: block;
-  margin-left: auto;
+  position: absolute;
+  top: 24px;
+  right: 24px;
   border-radius: 50%;
   width: 24px;
   height: 24px;
@@ -1214,13 +1217,13 @@ ol {
   justify-content: center;
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  margin-bottom: 24px;
 }
-.mob-list {
+.mob-menu-list {
   display: flex;
   flex-direction: column;
   gap: 40px;
   margin-bottom: 168px;
+  margin-top: 24px;
 }
 .mob-menu-item {
 }
