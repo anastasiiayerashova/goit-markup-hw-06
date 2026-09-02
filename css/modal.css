@@ -201,7 +201,7 @@
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.visually-hidden:checked + .agree-label > .agree-container {
+.sr-only:checked + .agree-label > .agree-container {
   background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
