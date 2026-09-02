@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -17,24 +17,24 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <div class="container header-container">
+        <a class="web-logo" href="./index.html"
+          >Web<span class="logo-studio">Studio</span></a
+        >
         <nav class="navigation">
-          <a class="web-logo" href="./index.html"
-            >Web<span class="logo-studio">Studio</span></a
-          >
           <ul class="nav-list">
             <li>
-              <a class="nav-link-underline" href="./index.html">Studio</a>
+              <a class="nav-link-underline" href="#features">Features</a>
             </li>
             <li>
-              <a class="nav-link" href="">Portfolio</a>
+              <a class="nav-link" href="#team">Team</a>
             </li>
             <li>
-              <a class="nav-link" href="">Contacts</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
           </ul>
         </nav>
@@ -128,7 +128,7 @@
       </div>
     </header>
     <main>
-      <section class="first-section">
+      <section class="first-section" id="hero">
         <div class="container">
           <h1 class="main-header">
             Effective Solutions<br />for Your Business<br />
@@ -136,9 +136,9 @@
           <button class="button" type="button">Order Service</button>
         </div>
       </section>
-      <section class="section">
+      <section class="section" id="features">
         <div class="container second-section">
-          <h2 class="visually-hidden">Advantages</h2>
+          <h2 class="visually-hidden">Our features</h2>
           <ul class="qualities">
             <li class="qualities-list">
               <div class="qualities-icon-container">
@@ -191,7 +191,7 @@
           </ul>
         </div>
       </section>
-      <section class="section third-section">
+      <section class="section third-section" id="team">
         <div class="container">
           <h2 class="second-header">Our Team</h2>
           <ul class="section-list">
@@ -366,7 +366,7 @@
           </ul>
         </div>
       </section>
-      <section class="section fourth-section">
+      <section class="section fourth-section" id="portfolio">
         <div class="container">
           <h2 class="second-header">Our Portfolio</h2>
           <ul class="fourth-section-list">
@@ -612,7 +612,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <div class="container footer-container">
         <div class="footer-text-container">
           <a class="footer-web-logo" href="./index.html"
@@ -677,7 +677,7 @@
         </div>
       </div>
     </footer>
-    <div class="modal-overlay">
+    <div class="modal-overlay" id="modal">
       <div class="modal">
         <button type="button" class="close-button">
           <svg class="form-close-icon" width="8" height="8">
