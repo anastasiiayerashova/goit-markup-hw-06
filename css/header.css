@@ -25,7 +25,8 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding: 17px 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .logo-studio {
@@ -208,6 +209,7 @@
   .address-link {
     font-size: 12px;
     line-height: 1.17;
+    letter-spacing: 0.04em;
   }
 
   .open-menu-btn {

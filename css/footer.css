@@ -161,10 +161,10 @@
 
 @media screen and (min-width: 768px) {
   .footer-container {
-    justify-content: unset;
+    justify-content: flex-start;
     gap: 72px 24px;
-    padding-left: 92px;
-    min-width: 584px;
+    padding-left: 0;
+    min-width: unset;
   }
 
   .footer-text-container {
@@ -203,8 +203,9 @@
   .footer-container {
     flex-wrap: nowrap;
     gap: 0;
-    padding-left: 15px;
-    min-width: 1158px;
+    padding-left: 0;
+    min-width: unset;
+    align-items: baseline;
   }
 
   .footer-text-container {
@@ -212,6 +213,10 @@
   }
 
   .footer-socials-container {
-    margin-right: 80px;
+    margin-right: 0;
+  }
+
+  .footer-subscribe-container {
+    margin-left: auto;
   }
 }
